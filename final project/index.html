@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>All About Gaming</title>
+	<link href="index.css" rel="stylesheet" type="text/css">
+	<!--<link href="w3.css" rel="stylesheet">-->
+</head>
+<body>
+	<div class="container">
+		<header>
+   			<h1>The Game Room</h1>
+   			<h4>All About Gaming</h4>
+		</header>
+		
+	</div>
+	
+	<div class="navigation">
+		<nav>
+			<button><a href="#">Home</a></button>
+			<button class="product"><a href="#">Products</a></button>
+			<div class="product-onclick">Laptops Desktops Consoles Keyboards Mouse</div>
+			<button><a href="#">About us</a></button>
+			<button><a href="#">Lorem</a></button>
+			<button><a href="#">Ipsum</a></button>
+		</nav>		
+	</div>
+	
+	<div class="banner">
+		<img class="banner_img" src="images/triplecurved.jpg" style="width:100%; height:563px;">
+	</div>
+	
+	<div class="containerr">	
+		<div class="video">
+			<video src="TITAN X.mp4" type="video/mp4" autoplay></video>
+		</div>
+		<div class="p1">
+			<img src="images/predator.jpg">
+			Gaming Laptops
+		</div>
+		<div class="p2">
+			<img src="images/key1.jpg">
+			Gaming keyboards
+		</div>
+		<div class="p3">
+			<img src="images/head1.jpg">
+			Gaming Headsets
+		</div>			 
+	</div>	
+
+	<h1>Special Deals</h1>
+	<div class="Special">
+		
+		<img class='mySlides' src="images/card1.jpg" style="width: 100%; height: 100%">
+		<img class='mySlides' src="images/card2.jpg" style="width: 100%; height: 100%">
+  		<img class='mySlides' src="images/card3.jpg" style="width: 100%; height: 100%">
+
+  		<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  		<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+	</div>
+
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+  			showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+  			var i;
+  			var x = document.getElementsByClassName("mySlides");
+  			if (n > x.length) {slideIndex = 1}    
+ 				if (n < 1) {slideIndex = x.length}
+  					for (i = 0; i < x.length; i++) {
+     					x[i].style.display = "none";  
+  					}
+  					x[slideIndex-1].style.display = "block";  
+				}
+	</script>
+	<script src='js/jquery.js'></script>
+	<script src="js/main.js"></script> 
+	<script src="jquery.zoom.js"></script>
+	<script src="jquery.zoom.min.js"></script>  		
+</body>
+</html>

@@ -1,0 +1,112 @@
+html, body{
+    font-size: 100%;
+	background:	grey;
+	font-family:'Open Sans', sans-serif;
+	color: #e5962a;
+}
+
+.header{
+	padding: 2em 0 0;
+    padding-top: 2em;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    color: #e5962a;
+}
+
+.banner{
+	height: 566px;
+
+}
+
+.container{	
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.navigation{
+	text-align: center;
+	color: blue;
+	margin-top: 15px;
+	
+	font-size: 20px;
+	word-spacing: 70px;
+	background: black;
+}
+
+button{
+	background: transparent;
+	border: transparent;
+	font-size: 30px;
+}
+
+a{
+	font-size: 18px;
+	color: #e5962a;
+}
+
+video{
+	width: 100%;
+	height: 100%;
+}
+
+.containerr{
+	height: 350px;
+	padding-left: 100px;
+}
+
+.p1{
+	position: relative;
+	left: 550px;
+	bottom: 240px;
+	height: 200px;
+	width: 275px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.video{
+	height: 300px;
+	width: 500px;
+}
+
+.p2{
+	position: relative;
+	height: 200px;
+	width: 275px;
+	text-align: center;
+	font-size: 15px;
+	left: 870px;
+	bottom: 440px;
+}
+
+.p3{
+	position: relative;
+	height: 200px;
+	width: 275px;
+	text-align: center;
+	font-size: 15px;
+	left: 1170px;
+	bottom: 670px;
+}
+
+.Special{
+	position: relative;
+	font-size: 25px;
+	height: 500px;
+	width: 1000px;
+
+}
+
+.product-onclick{
+	display: none;
+	color: #e5962a;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
